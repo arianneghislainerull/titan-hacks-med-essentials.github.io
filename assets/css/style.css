@@ -1,4 +1,14 @@
+ 
+
+
+
+
+
+
+
 /**
+* Authors: Arianne Ghislaine Rull, Arvin Vivenkandram, Justin Yue and George Shao
+*
 * Template Name: SoftLand - v2.0.0
 * Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
 * Author: BootstrapMade.com
@@ -42,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .text-primary {
-  color: #2d71a1 !important;
+  color: #049F82 !important;
 }
 
 .border-top {
@@ -66,7 +76,7 @@ figure figcaption {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #274685);
+  background: linear-gradient(-45deg, #049F82, rgba(45, 133, 81, 0.8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -75,7 +85,7 @@ figure figcaption {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #2d71a1;
+  background: #049F82;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -117,12 +127,12 @@ figure figcaption {
 
 .btn.btn-outline-white:hover {
   background: #fff;
-  color: #2d71a1;
+  color: #049872;
 }
 
 .btn.btn-primary {
-  background: #2d71a1;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: #049872;
+  background: linear-gradient(-45deg, #049F82, rgba(45, 133, 81, 0.8));
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
@@ -139,7 +149,7 @@ figure figcaption {
 }
 
 .feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+  background: linear-gradient(-45deg, #049F82, rgba(45, 133, 81, 0.8));
 }
 
 .feature-1 .wrap-icon .icon {
@@ -167,7 +177,7 @@ figure figcaption {
 }
 
 .step .number {
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #049F82, rgba(45, 133, 81, 0.8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -230,13 +240,13 @@ figure figcaption {
 }
 
 .testimonial-carousel .owl-dots .owl-dot.active > span {
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #049F82, rgba(45, 133, 81, 0.8));
 }
 
 /* Pricing */
 .pricing {
   padding: 50px;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #049F82, rgba(45, 133, 81, 0.8));
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
@@ -247,7 +257,7 @@ figure figcaption {
 }
 
 .pricing h3 {
-  color: #2d71a1;
+  color: #049872;
 }
 
 .pricing .price-cta {
@@ -289,14 +299,14 @@ figure figcaption {
 }
 
 .pricing .btn-white:hover {
-  color: #2d71a1;
+  color: #049872;
 }
 
 .pricing.popular {
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   color: #000000;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #049F82, rgba(45, 133, 81, 0.8));
   color: #fff;
   box-shadow: none;
 }
@@ -311,12 +321,12 @@ figure figcaption {
 }
 
 .pricing.popular .btn-white {
-  border: 2px solid #2d71a1;
+  border: 2px solid #049872;
 }
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(to right, #274685 0%, #3db3c5 100%);
+  background: linear-gradient(to right, rgba(45, 133, 81, 0.8) 0%, #049F82 100%);
   color: #fff;
 }
 
@@ -384,11 +394,11 @@ figure figcaption {
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #2d71a1 !important;
+  color: #049872 !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
-  color: #2d71a1 !important;
+  color: #049872 !important;
 }
 
 .sticky-wrapper .shrink {
@@ -406,7 +416,7 @@ figure figcaption {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border: 1px solid #2d71a1;
+  border: 1px solid #049872;
 }
 
 .php-email-form .validate {
@@ -496,11 +506,11 @@ figure figcaption {
 
 .post-entry .post-text h3 a:hover {
   text-decoration: none;
-  color: #2d71a1;
+  color: #049872;
 }
 
 .post-entry .post-text .readmore {
-  color: #2d71a1;
+  color: #049872;
 }
 
 .sidebar-box {
@@ -639,7 +649,7 @@ figure figcaption {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(45, 133, 81, 0.8) 0%, rgba(61, 197, 84, 0.8) 100%), url(../img/background.jpg);
+  background: linear-gradient(to right, rgba(45, 133, 81, 0.8) 0%, rgba(55, 116, 65, 0.8) 100%), url(../img/background.jpg);
   position: relative;
 }
 
@@ -804,7 +814,7 @@ figure figcaption {
 }
 
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #2d71a1;
+  color: #049872;
 }
 
 .site-navbar .site-navigation .site-menu > li.active > a {
@@ -874,7 +884,7 @@ figure figcaption {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
-  color: #2d71a1 !important;
+  color: #049872 !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
@@ -909,7 +919,7 @@ figure figcaption {
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active > a {
-  color: #2d71a1;
+  color: #049872;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active {
@@ -1004,7 +1014,7 @@ figure figcaption {
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #2d71a1;
+  color: #049872;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -1013,7 +1023,7 @@ figure figcaption {
 }
 
 .site-mobile-menu .site-nav-wrap li.active > a {
-  color: #2d71a1;
+  color: #049872;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -1196,7 +1206,7 @@ figure figcaption {
   position: relative;
   text-align: center;
   transition: .3s background ease;
-  color: #0d1e2d;
+  color: #049872;
 }
 
 .social a span {
@@ -1209,5 +1219,5 @@ figure figcaption {
 
 .social a:hover {
   color: #fff;
-  background: #2d71a1;
+  background: #049872;
 }
