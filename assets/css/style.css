@@ -723,7 +723,7 @@ figure figcaption {
   overflow: hidden;
   left: 0;
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
+  border-radius: 0px;
 }
 
 @media screen and (max-width: 992px) {
@@ -747,7 +747,7 @@ figure figcaption {
 .hero-section .iphone-wrap .phone-2 {
   margin-top: 50px;
   margin-left: 100px;
-  width: 300px;
+  width: 250px;
 }
 
 @media screen and (max-width: 992px) {
